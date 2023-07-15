@@ -2,6 +2,9 @@
   <li>
     <a href="../manufactures">Quan ly nha san xuat</a>
   </li>
+  <li>
+    <a href="../products">Quan ly san pham</a>
+  </li>
 </ul>
 
 <?php
