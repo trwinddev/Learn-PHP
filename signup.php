@@ -9,6 +9,7 @@
 	<?php 
 	if(isset($_GET['error'])){	
 		echo $_GET['error'];
+		unset($_SESSION['error']);
 	}
 	?>
 	<form method="POST" action="process_signup.php">

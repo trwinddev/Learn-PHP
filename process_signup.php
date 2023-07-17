@@ -11,6 +11,7 @@ $result = mysqli_query($connect, $sql);
 $numbers_rows = mysqli_fetch_array($result)['count(*)'];
 
 if($numbers_rows == 1) {
+	session_start();
 	header('location:signup.php?error=Email da ton tai');
 	exit;
 }
