@@ -24,6 +24,12 @@ $result = mysqli_query($connect, $sql);
 			<a href="product_detail.php?id=<?php echo $each['id'] ?>">
 				Xem chi tiet >>
 			</a>
+			<?php if(!empty($_SESSION['id'])){ ?>
+				<br>
+			<a href="add_to_cart.php?id=<?php echo $each['id'] ?>">
+				Them vao gio hang
+			</a>
+			<?php } ?>
 		</div>
 	<?php endforeach ?>
 </div>
