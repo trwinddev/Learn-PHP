@@ -11,8 +11,11 @@
           <a href="signup.php">Dang ky</a>
       </li>
     <?php }else{ ?>
+       <li>
+          <a href="view_cart.php">Xem gio hang</a>
+      </li>
       <li>
-        Hello, <?php echo $_SESSION['name'] ?>
+        <?php echo $_SESSION['name'] ?>
           <a href="signout.php">Dang xuat</a>
       </li>
     <?php } ?>

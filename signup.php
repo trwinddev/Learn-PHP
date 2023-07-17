@@ -23,6 +23,12 @@
 		Mat khau
 		<input type="password" name="password">
 		<br>
+		Sdt
+		<input type="text" name="phone_number">
+		<br>
+		Dia chi
+		<input type="text" name="address">
+		<br>
 		<button>Dang ky</button>
 	</form>
 </body>
