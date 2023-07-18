@@ -5,6 +5,9 @@
   <li>
     <a href="../products">Quan ly san pham</a>
   </li>
+   <li>
+    <a href="../orders">Quan ly don hang</a>
+  </li>
 </ul>
 
 <?php
